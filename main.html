@@ -1,0 +1,308 @@
+<!doctype html>
+<div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="https://new.siemens.com/in/en.html" required><img src="download.png"></a>
+    <button class="navbar-toggler d-lg-none;" ="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="#">Action 1</a>
+            <a class="dropdown-item" href="#">Action 2</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</div>
+<html lang="en">
+  <head>
+    <title>Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+<script>
+  function change1()
+ {
+   a=document.getElementById("2").value;
+   b=document.getElementById("9").value;
+   c=parseFloat((b-(a/2))/1000);
+   document.getElementById("12").value=c;
+   return document.getElementById("12").value;
+  }
+  function change2()
+ {
+    a=document.getElementById("15").value;
+    b=document.getElementById("16").value;
+    c=parseFloat((1.5*a)+(1.5*b));
+    document.getElementById("17").value=c;
+    document.getElementById("18").value=c;
+    return document.getElementById("18").value;
+  }
+  function change3()
+ {
+    a=document.getElementById("12").value;
+    b=document.getElementById("20").value;
+    c=parseFloat(a*b);
+    document.getElementById("22").value=c;
+    return document.getElementById("22").value;
+  }
+  function change4()
+ {
+    a=document.getElementById("12").value;
+    b=document.getElementById("21").value;
+    c=parseFloat(a*b);
+    document.getElementById("23").value=c;
+    return document.getElementById("23").value;
+  }
+  function change5()
+ {
+    a=document.getElementById("24").value;
+    c=parseFloat((0.6323*a)+26);
+    document.getElementById("25").value=c;
+    return document.getElementById("25").value;
+  }
+  function change6()
+ {
+    a=document.getElementById("16").value;
+    c=parseFloat(1.5*a);
+    document.getElementById("26").value=c;
+    return document.getElementById("26").value;
+  }
+  function change7()
+ {
+    a=document.getElementById("25").value;
+    b=document.getElementById("26").value;
+    c=parseFloat((a/b)*100);
+    document.getElementById("27").value=c;
+    return document.getElementById("27").value;
+  }
+  function change8()
+ {
+    a=document.getElementById("28").value;
+    c=parseFloat((0.2046*a)+130);
+    document.getElementById("29").value=c;
+    return document.getElementById("29").value;
+  }
+  function change9()
+ {
+    a=document.getElementById("29").value;
+    b=document.getElementById("25").value;
+    c=parseFloat(a-b);
+    document.getElementById("30").value=c;
+    return document.getElementById("30").value;
+  }
+  function change10()  {
+    document.getElementById("31").value=document.getElementById("18").value;
+    document.getElementById("33").value=document.getElementById("18").value;
+    return document.getElementById("31").value, document.getElementById("33").value;
+  }
+  function change11()  {
+    a=document.getElementById("30").value;
+    b=document.getElementById("31").value;
+    c=parseFloat((a/b)*100);
+    document.getElementById("32").value=c;
+    return document.getElementById("32").value;
+  }
+  function change12()  {
+    a=document.getElementById("29").value;
+    b=document.getElementById("33").value;
+    c=parseFloat((a/b)*100);
+    document.getElementById("34").value=c;
+    return document.getElementById("34").value;
+  }
+  function change13()  {
+    a=document.getElementById("35").value;
+    b=parseFloat((0.6323*a)+26);
+    document.getElementById("36").value=b;
+    return document.getElementById("36").value;
+  }
+  function change14()  {
+    a=document.getElementById("14").value;
+    c=parseFloat(1.5*a);
+    document.getElementById("37").value=c;
+    return document.getElementById("37").value;
+  }
+  function change15()  {
+    a=document.getElementById("36").value;
+    b=document.getElementById("37").value;
+    c=parseFloat((a/b)*100);
+    document.getElementById("38").value=c;
+    return document.getElementById("38").value;
+  }
+  function change16()  {
+    a=document.getElementById("39").value;
+    c=parseFloat((0.2046*a)+130);
+    document.getElementById("40").value=c;
+    return document.getElementById("40").value;
+  }
+  function change17()  {
+    a=document.getElementById("40").value;
+    b=document.getElementById("36").value;
+    c=parseFloat(a-b);
+    document.getElementById("41").value=c;
+    return document.getElementById("41").value;
+  }
+  function change18()  {
+    document.getElementById("42").value=document.getElementById("17").value;
+    document.getElementById("43").value=document.getElementById("17").value;
+    return document.getElementById("42").value,document.getElementById("43").value
+  }
+  function change19()  {
+    a=document.getElementById("40").value;
+    b=document.getElementById("43").value;
+    c=parseFloat((a/b)*100);
+    document.getElementById("44").value=c;
+    return document.getElementById("44").value;
+  }
+  function change20()  {
+    a=document.getElementById("14").value;
+    c=parseFloat(0.4*(1.2*a));
+    document.getElementById("45").value=c;
+    return document.getElementById("45").value;
+  }
+  function change21()  {
+    a=document.getElementById("13").value;
+    b=document.getElementById("14").value;
+    c=parseFloat(0.5*((1.25*a)+(0.25*b)));
+    document.getElementById("46").value=c;
+    return document.getElementById("46").value;
+  }
+  function change22()  {
+    a=parseFloat(document.getElementById("36").value);
+    b=parseFloat(document.getElementById("45").value);
+    c=parseFloat(a+b);
+    document.getElementById("47").value=c;
+    return document.getElementById("47").value;
+  }
+  function change23()  {
+    a=parseFloat(document.getElementById("47").value);
+    b=parseFloat(document.getElementById("37").value);
+    c=parseFloat((a/b)*100);
+    document.getElementById("48").value=c;
+    return document.getElementById("48").value;
+  }
+  function change24()  {
+    a=parseFloat(document.getElementById("46").value);
+    b=parseFloat(document.getElementById("40").value);
+    c=parseFloat(a+b);
+    document.getElementById("49").value=c;
+    return document.getElementById("49").value;
+  }
+  function change25()  {
+    a=parseFloat(document.getElementById("14").value);
+    b=parseFloat(document.getElementById("17").value);
+    c=parseFloat(a+b);
+    document.getElementById("50").value=c;
+    return document.getElementById("50").value;
+  }
+  function change26()  {
+    a=parseFloat(document.getElementById("49").value);
+    b=parseFloat(document.getElementById("50").value);
+    c=parseFloat((a/b)*100);
+    document.getElementById("51").value=c;
+    return document.getElementById("51").value;
+  }
+  function r(event)
+  {
+    event.preventDefault();
+    var e,f,g,h,i,j,k;
+    parseFloat(document.getElementById("25").value)<parseFloat(document.getElementById("26").value)?e="Pass":e="Fail";
+    parseFloat(document.getElementById("30").value)<parseFloat(document.getElementById("31").value)?f="Pass":f="Fail";
+    parseFloat(document.getElementById("29").value)<parseFloat(document.getElementById("33").value)?g="Pass":g="Fail";
+    parseFloat(document.getElementById("36").value)<parseFloat(document.getElementById("37").value)?h="Pass":h="Fail";
+    parseFloat(document.getElementById("40").value)<parseFloat(document.getElementById("43").value)?i="Pass":i="Fail";
+    parseFloat(document.getElementById("47").value)<parseFloat(document.getElementById("37").value)?j="Pass":j="Fail";
+    parseFloat(document.getElementById("49").value)<parseFloat(document.getElementById("50").value)?k="Pass":k="Fail";
+    alert("Result (Pl) Trunnion: "+e+" (Util%: "+document.getElementById("27").value+")"+"\r\n"+
+          "Result (Q) Trunnion: "+f+" (Util%: "+document.getElementById("32").value+")"+ "\r\n"+
+          "Result (Pm + Pl + Q) Trunnion: "+g+" (Util%: "+document.getElementById("34").value+")"+"\r\n"+
+          "Result (Pm + Pl) Header: "+h+" (Util%: "+document.getElementById("38").value+")"+"\r\n"+
+          "Result (Pm + Pl + Q) Header: "+i+" (Util%: "+document.getElementById("44").value+")"+"\r\n"+
+          "Result (Pm + Pl) Total Header: "+j+" (Util%: "+document.getElementById("48").value+")"+"\r\n"+
+          "Result (Total Pm +Pl + Q): "+k+" (Util%: "+document.getElementById("51").value+")");
+  }
+</script>
+<h1><center>Form</center></h1>
+  <form action="#" method="POST" onsubmit="r(event)">
+    <div class="container">
+        <div class="form-group col-lg-5">
+              Support KKS<input type="text" id="1" class="form-control" required><br>	
+              Run Pipe OD (mm)<input type="text" id="2" class="form-control" required><br>
+              Pipe Wall (mm)<input type="text" id="3" class="form-control" required><br>
+              Trunnion OD (mm)	<input type="text" id="4" class="form-control" required><br>
+              Trunnion Wall (mm)	<input type="text" id="5" class="form-control" required><br>
+              Design Temperature (Header / Trunnion)<input type="text" id="6" class="form-control" required><br>	
+              Design Pressure (Trunnion Pmax)	<input type="text" id="7" class="form-control" required><br>
+              Design Pressure (Header Pmax)	<input type="text" id="8" class="form-control" required><br>
+              Trunnion Length (mm)	<input type="text" id="9" class="form-control" required><br>
+              Trunnion Function	<input type="text" id="10" class="form-control" required><br>
+              No of trunnions	<input type="text" id="11" class="form-control" required> <br>
+              <! Effective trunnion length (m)><input type="text" id="12" class="form-control" style="display: none;">
+              Basic Allowable Stress of Header Material at room temperature (fc)<input type="text" id="13" class="form-control" required><br>
+              Basic Allowable Stress of Header Material at design temperature (fh)<input type="text" id="14" class="form-control" required><br>
+              Basic Allowable Stress of Trunnion Material at room temperature (fc)	<input type="text" id="15" class="form-control" required><br>
+              Basic Allowable Stress of Trunnion Material at design temperature (fh)	<input type="text" id="16" class="form-control" required><br>
+              <! Allowable header range stress at design temperature (fa) Section VIII><input type="text" id="17" class="form-control" style="display: none;">
+              <! Allowable Trunnion range stress at design temperature (fa) Section VIII	><input type="text" id="18" class="form-control" style="display: none;">
+              Load on each Trunnion (P) in Trunnion Axis Direction (N)	<input type="text" id="19" class="form-control" required><br>
+              Load on each Trunnion (VL) in header longitudinal shear direction (N)<input type="text" id="20" class="form-control" required><br>	
+              Load on each Trunnion (VC) in header Circumfrential shear direction (N)	<input type="text" id="21" class="form-control" required><br>
+              <! Longitudinal Bending Moment (ML) (N-m)	><input type="text" id="22" class="form-control" style="display: none;">
+              <! Circumfrentiall Bending Moment (MC) (N-m)><input type="text" id="23" class="form-control" style="display: none;">
+              Pl Trunnion (WRC)	<input type="text" id="24" class="form-control" required><br>
+              <! Pl Trunnion (FE Predicted)><input type="text" id="25" class="form-control" style="display: none;">
+              <! Pl Trunnion (Allowable)><input type="text" id="26" class="form-control" style="display: none;">
+              <! Util %	><input type="text" id="27" class="form-control" style="display: none;">
+              PL+Q Trunnion (WRC)	<input type="text" id="28" class="form-control" required><br>
+              <! PL+Q Trunnion (FE Predicted)	><input type="text" id="29" class="form-control" style="display: none;">
+              <! Q Trunnion	><input type="text" id="30" class="form-control" style="display: none;">
+              <! Q Allowable (Trunnion)	><input type="text" id="31" class="form-control" style="display: none;">
+              <! Util %	><input type="text" id="32" class="form-control" style="display: none;">
+              <! PM+PL+Q (Allowable for Trunnion)	><input type="text" id="33" class="form-control" style="display: none;">
+              <! Util %	><input type="text" id="34" class="form-control" style="display: none;">
+              Pl Header (WRC)	<input type="text" id="35" class="form-control" required><br>
+              <! PL Header (FE Predicted)><input type="text" id="36" class="form-control" style="display: none;">	
+              <! Pm + Pl Header (Allowable)	><input type="text" id="37" class="form-control" style="display: none;">
+              <! Util %	><input type="text" id="38" class="form-control" style="display: none;">
+              Pm+PL+Q Header (WRC)	<input type="text" id="39" class="form-control" required><br>
+              <! Pm+PL+Q Header (FE Predicted)><input type="text" id="40" class="form-control" style="display: none;">	
+              <! Q Header	><input type="text" id="41" class="form-control" style="display: none;">
+              <! Q Allowable (Header)	><input type="text" id="42" class="form-control" style="display: none;">
+              <! PM+PL+Q (Allowable for Header)	><input type="text" id="43" class="form-control" style="display: none;">
+              <! Util %	><input type="text" id="44" class="form-control" style="display: none;">
+              <! HDR Pipe SUS+OCC Stresses (N/mm2) B31.1 Limit to 40%	><input type="text" id="45" class="form-control" style="display: none;">
+              <! HDR Pipe Range Stresses (N/mm2) B31.1 Limit to 50 %	><input type="text" id="46" class="form-control" style="display: none;">
+              <! Total Stresses on HDR Pipe (SUS+OCC) (N/mm2)	><input type="text" id="47" class="form-control" style="display: none;">
+              <! Result (Total Pm +Pl) Util %><input type="text" id="48" class="form-control" style="display: none;">
+              <! Total HDR Pipe Range Stresses (N/mm2)><input type="text" id="49" class="form-control" style="display: none;">
+              <! Allowable Total Header Range Stress (Fh + Fa)><input type="text" id="50" class="form-control" style="display: none;">
+              <! Util %><input type="text" id="51" class="form-control" hidden><br>
+              <button type="submit" class="btn btn-outline-success" onclick="change1(),change2(),change3(),change4(),change5(),change6(),change7(),change8(),change9(),change10(),change11(),change12()
+              change13(),change14(),change15(),change16(),change17(),change18(),change19(),change20(),change21(),change22(),change23(),change24(),change25(),change26()">Check Result</button>
+            </div></div></form></div>
+         </div></div></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</form>
+</body>
+</html>
